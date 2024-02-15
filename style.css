@@ -1,0 +1,55 @@
+.spinner {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    border-top-color: #333;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  input{
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+    
+  }
+  .bg_container{
+    height: 100vh;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+    
+  }
+  body{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/numbers-fact-bg.png");
+    background-repeat: no-repeat;
+  }
+  .para{
+        font-size: 20px;
+        font-style: italic;
+        color: white;
+        font-weight: bold;
+
+  }
+  .result-container{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
